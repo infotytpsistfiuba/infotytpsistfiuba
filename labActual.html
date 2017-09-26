@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="SBACalc">
+	<head>
+		<title>Tesis/TPs fiuba computación</title>
+		<!-- meta -->
+		<meta charset="utf-8"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<!-- CSS -->
+		<link type="text/css" rel="stylesheet" href="css/bootstrap.min.css">
+		<link type="text/css" rel="stylesheet" href="css/style.css">
+		<!-- JS -->
+		<script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+		<script type="text/javascript" src="js/popper.js"></script>
+		<script type="text/javascript" src="js/bootstrap.min.js"></script>
+
+		<script>
+	     $(function(){
+	       $("#includeNav").load("nav.html");
+	     });
+     </script>
+	</head>
+
+	<body>
+
+		<div id="includeNav"></div>
+
+		<div class="container">
+			<table class="table">
+				<thead>
+					<tr>
+						<th>Laboratorio</th>
+						<th>Tags</th>
+						<th>Investigación</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>LIMET</td>
+						<td>#microservicios #legacy #especificacion #documentacion</td>
+						<td>
+							<p><b>Especificaciones con ejemplos y microservicios en el mantenimiento de aplicaciones heredadas</b></p>
+							<p> El proyecto pretende encarar la situación que se da cuando existe un producto de software que funciona bien y tiene éxito comercial, pero que cuenta con escasa o nula documentación (funcional, casos de pruebas, de diseño, etc.). En estos casos, la evolución del sistema tiende a ser muy costosa y riesgosa, y se encara sin un método consistente y seguro.</p>
+							<p>La idea es plantear un enfoque metodológico que, utilizando los principios de Acceptance Test Driven Development (ATDD) y Specification By Example (SBE) en una forma inversa a la habitual, vaya acotando la funcionalidad con nueva documentación basada en pruebas de aceptación y ejemplos, que permitan progresivamente refactorizarla y modificarla de manera más segura y económica.</p>
+							<p>Entendemos también que cuanto menor sea el acoplamiento del sistema a modificar, más sencillo será implementar nuestra solución. Por eso, una introducción progresiva de microservicios bien delimitados por funcionalidades podría ayudar.</p>
+							<p>Otro aspecto interesante de analizar es el de la automatización de las pruebas de aceptación. Si bien SBE no requiere estrictamente de pruebas automatizadas, creemos que en un contexto como el que estamos describiendo, la automatización podría ayudar mucho.</p>
+							<p>Existe un estudio realizado por Michael Feathers (Working Effectively With Legacy Code), pero no llega a resolver del todo el problema. También en la tesis de maestría de Carlos Fontela se aborda tangencialmente el tema y lo mismo ocurre con algunos trabajos finales de carrera en FIUBA dirigidos por Fontela.</p>
+							<p>Se espera que los resultados de este proyecto tengan amplia aplicación organizacional, ya que es un tema de enorme relevancia para la industria del software, en la que más de la mitad del desarrollo de software consiste en mantenimiento – sin un método consistente y seguro – de sistemas exitosos, y en los cuales no es habitual contar con documentación suficiente y de calidad. </p>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+
+  </body>
+
+</html>
