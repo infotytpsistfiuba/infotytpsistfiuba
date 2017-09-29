@@ -50,3 +50,13 @@ Es simplemente para tener la comodidad cuando uno testea en maquina local de no 
 Estan minificadas para no gastar ancho de banda innecesario, si bien github nos hostea gratis, uno ahorra.
 
 Cualquiera que quiera las versiones no minificadas para codear mejor, puede conseguirlas facilmente.
+
+### Bibliografia
+
+https://blog.nicopaez.com/2012/04/09/sobre-los-trabajos-finales-de-carrera-en-fiuba/
+http://materias.fi.uba.ar/7508/Tesis/index.html
+http://materias.fi.uba.ar/7500/
+https://blog.nicopaez.com/2010/12/20/recibirse-de-ingeniero-en-informatica-en-uba/
+http://campus.fi.uba.ar/mod/resource/view.php?id=5599
+http://campus.fi.uba.ar/mod/resource/view.php?id=4245
+http://materias.fi.uba.ar/7299/Reglamento%20Tesis.pdf
