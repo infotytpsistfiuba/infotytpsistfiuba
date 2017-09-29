@@ -1,33 +1,81 @@
 <!DOCTYPE html>
 <html lang="en" ng-app="SBACalc">
-	<head>
-		<title>Tesis/TPs fiuba computación</title>
-		<!-- meta -->
-		<meta charset="utf-8"/>
-		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-		<!-- CSS -->
-		<link type="text/css" rel="stylesheet" href="css/bootstrap.min.css">
-		<link type="text/css" rel="stylesheet" href="css/style.css">
-		<!-- JS -->
-		<script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
-		<script type="text/javascript" src="js/popper.js"></script>
-		<script type="text/javascript" src="js/bootstrap.min.js"></script>
+<head>
+    <title>Tesis/TPs fiuba computación</title>
+    <!-- meta -->
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- CSS -->
+    <link type="text/css" rel="stylesheet" href="css/bootstrap.min.css">
+    <link type="text/css" rel="stylesheet" href="css/style.css">
+    <!-- JS -->
+    <script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="js/popper.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
 
-		<script>
-	     $(function(){
-	       $("#includeNav").load("nav.html");
-	     });
-     </script>
-	</head>
+    <script>
+      $(function () {
+        $("#includeNav").load("nav.html");
+      });
+    </script>
+</head>
 
-	<body>
+<body>
 
-		<div id="includeNav"></div>
+<div id="includeNav"></div>
 
-	  <div class="container">
-	    <p>En esta página habra preguntas frecuentes
-	  </div>
+<div class="container">
+    <h2>FAQ</h2>
+    <p>Respuestas a preguntas frecuentes</p>
+    <div style="padding:1rem;margin:1rem -1rem;border:solid #f7f7f9;border-width:.2rem 0 0">
+        <div id="accordion" role="tablist" aria-multiselectable="true">
+            <div class="card">
+                <div class="card-header" role="tab" id="headingOne">
+                    <h5 class="mb-0">
+                        <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            ¿Cuantos creditos da la tesis?
+                        </a>
+                    </h5>
+                </div>
 
-  </body>
+                <div id="collapseOne" class="collapse show" role="tabpanel" aria-labelledby="headingOne">
+                    <div class="card-block">
+                        La tesis de ingenieria informatica otorga 24 creditos
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header" role="tab" id="headingTwo">
+                    <h5 class="mb-0">
+                        <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            No aprobé análisis 2, ¿Puedo empezar a hacer la tesis?
+                        </a>
+                    </h5>
+                </div>
+                <div id="collapseTwo" class="collapse" role="tabpanel" aria-labelledby="headingTwo">
+                    <div class="card-block">
+                        Para realizar la tesis es necesario ser alumno regular y haber adquirido 140 creditos.
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header" role="tab" id="headingThree">
+                    <h5 class="mb-0">
+                        <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            ¿Se puede hacer la tesis en grupo?
+                        </a>
+                    </h5>
+                </div>
+                <div id="collapseThree" class="collapse" role="tabpanel" aria-labelledby="headingThree">
+                    <div class="card-block">
+                        NO, la tesis es unicamente individual
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+</body>
 
 </html>
